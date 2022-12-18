@@ -1,0 +1,100 @@
+:root {
+    --primary: rgb(18, 120, 138);
+    --secondary: rgb(209, 88, 88);
+    --third:rgb(70, 45, 45);
+    --fourth:rgb(228, 222, 222);
+}
+
+body {
+    background-image: url("../images/mountains2.jpg");
+    
+    height: 90%;
+    z-index: -5;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    height:50px;
+    width:100%;
+    position:fixed;
+    bottom:0px;
+    background-color:var(--third);
+    display:flex;
+    justify-content:center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.copy{
+    color:var(--fourth);
+    font-size: 18px;
+}
+
+.footer-date {
+    font-size: 21px;
+}
+
+
+
+
+
+.header-section,
+.info-section {
+    display: flex;
+    background-color: rgba(255, 255, 255, 20%);
+    width: 60%;
+    margin-left: 25%;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.info-section {
+    border: 2px solid var(--third);
+    border-radius: 2px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+.title-header{
+    font-size:52px;
+    color:black;
+    opacity: 100%;
+    padding-left: 5%;
+    width: 100%;
+}
+
+.intro-pic {
+    width: 20%;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+.intro-text { 
+    width: 80%;
+    padding-top: 10px;
+}
+
+a:link{
+    color:var(--secondary);
+}
+
+a:visited{
+    color:rgb(209, 88, 88);
+}
+
+.form-label{
+    color:var(--primary);
+    font: bold;
+}
+
+.btn{
+    color:rgb(70, 45, 45);
+    background-color:rgb(18, 120, 138);
+    border-color:rgb(70, 45, 45);
+    font: bold;
+}
